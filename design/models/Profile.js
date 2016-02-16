@@ -17,9 +17,6 @@ module.exports = Mongoose.model({
 		type: String,
 		required: true
 	},
-	needDonation: { // If the user needs a donation
-		type: Boolean
-	},
 	lastDonation: {
 		type: Date
 	},
